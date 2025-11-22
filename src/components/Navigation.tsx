@@ -5,7 +5,7 @@ interface NavigationProps {
   currentPage: "landing" | "about" | "booking" | "admin";
   onNavigate: (
     page: "landing" | "about" | "booking" | "admin",
-  ) => void;
+  ) => void
 }
 
 export function Navigation({
