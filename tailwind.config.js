@@ -2,10 +2,10 @@
 export default {
   darkMode: ["class"],
   content: [
-    './index.html',
-    './App.tsx',
-    './main.tsx',
-    './components/**/*.{ts,tsx}',
+    "./**/*.{ts,tsx,html}",
+    "!./node_modules/**",
+    "!./dist/**",
+    "!./supabase/**",
   ],
   theme: {
     extend: {
@@ -53,8 +53,7 @@ export default {
           '2': 'hsl(var(--chart-2))',
           '3': 'hsl(var(--chart-3))',
           '4': 'hsl(var(--chart-4))',
-          '5': 'hsl(var(--chart-5))'
-        }
+          '5': 'hsl(var(--chart-5))'\n        }
       }
     }
   },
