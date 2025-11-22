@@ -2,27 +2,31 @@ import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { VideoPlayer } from './VideoPlayer';
 import { Play } from 'lucide-react';
-import portfolioImage1 from 'figma:asset/ae15dc5f4d4c61e5795541d171e256c2304fc64c.png';
-import portfolioImage2 from 'figma:asset/36b5736f28a2e677a4d748d4fcfaa4714d58978a.png';
-import portfolioImage3 from 'figma:asset/461bbba6e5f116e17cc128e227c7cbefe5962a5f.png';
-import portfolioImage4 from 'figma:asset/1f61ee87097d8103debc0aaf838d5b5f9968855a.png';
-import portfolioImage5 from 'figma:asset/ef85550941b205b804adbe455cac3816019b4116.png';
-import portfolioImage6 from 'figma:asset/8acd3c775ab54c89ad3953fab5eccc8e81dd77a6.png';
-import portfolioImage7 from 'figma:asset/d363d37e11466acca09d02a60bd74f806274d36b.png';
-import portfolioImage8 from 'figma:asset/7cb044602513902e0dc6a3ca8e027840471d34a3.png';
-import portfolioImage9 from 'figma:asset/46a08e35ba62176a5a7cb5f8b13d4228ec451969.png';
-import portfolioImage10 from 'figma:asset/7073eb3e73d57ec0bc6ccead8c80ee889c3d3f1b.png';
-import portfolioImage11 from 'figma:asset/89ce83f914b9f91e969dfafc9e1da180fca72cec.png';
-import portfolioImage12 from 'figma:asset/4fe8c2e13e5c6d637641c346bc6917dcbc34e3a3.png';
-import portfolioImage13 from 'figma:asset/886225dde407796b98432e36e99e756bb1858eb8.png';
-import portfolioImage14 from 'figma:asset/36284174c5d7c8be6b3e6d2e82c6d0d60c16390a.png';
-import customThumbnail from 'figma:asset/c3744cdc08efbcbe132c5f7b142764961b0f69fb.png';
-import reelThumbnail1 from 'figma:asset/d1095ac04a0815652f08e868293a8c0a38598a90.png';
-import reelThumbnail2 from 'figma:asset/55e7be24702aa4923f4352376cc7b319f1439d1a.png';
-import reelThumbnail3 from 'figma:asset/6f02597afead9506a843be7469747427ef44271c.png';
-import reelThumbnail4 from 'figma:asset/e1b35766fb68207a960ddd066262256783ad6353.png';
-import reelThumbnail5 from 'figma:asset/ee88760a3582db27757024dc75c0a33025fd8e29.png';
-import reelThumbnail6 from 'figma:asset/5bd91a7b97fbfbedd6126b51a65d47506b56482f.png';
+
+// Import portfolio images from assets
+import portfolioImage1 from '../assets/ae15dc5f4d4c61e5795541d171e256c2304fc64c.png';
+import portfolioImage2 from '../assets/36b5736f28a2e677a4d748d4fcfaa4714d58978a.png';
+import portfolioImage3 from '../assets/461bbba6e5f116e17cc128e227c7cbefe5962a5f.png';
+import portfolioImage4 from '../assets/1f61ee87097d8103debc0aaf838d5b5f9968855a.png';
+import portfolioImage5 from '../assets/ef85550941b205b804adbe455cac3816019b4116.png';
+import portfolioImage6 from '../assets/8acd3c775ab54c89ad3953fab5eccc8e81dd77a6.png';
+import portfolioImage7 from '../assets/d363d37e11466acca09d02a60bd74f806274d36b.png';
+import portfolioImage8 from '../assets/7cb044602513902e0dc6a3ca8e027840471d34a3.png';
+import portfolioImage9 from '../assets/46a08e35ba62176a5a7cb5f8b13d4228ec451969.png';
+import portfolioImage10 from '../assets/7073eb3e73d57ec0bc6ccead8c80ee889c3d3f1b.png';
+import portfolioImage11 from '../assets/89ce83f914b9f91e969dfafc9e1da180fca72cec.png';
+import portfolioImage12 from '../assets/4fe8c2e13e5c6d637641c346bc6917dcbc34e3a3.png';
+import portfolioImage13 from '../assets/886225dde407796b98432e36e99e756bb1858eb8.png';
+import portfolioImage14 from '../assets/36284174c5d7c8be6b3e6d2e82c6d0d60c16390a.png';
+import customThumbnail from '../assets/c3744cdc08efbcbe132c5f7b142764961b0f69fb.png';
+
+// Import Instagram Reel thumbnails from assets
+import reelThumbnail1 from '../assets/d1095ac04a0815652f08e868293a8c0a38598a90.png';
+import reelThumbnail2 from '../assets/55e7be24702aa4923f4352376cc7b319f1439d1a.png';
+import reelThumbnail3 from '../assets/6f02597afead9506a843be7469747427ef44271c.png';
+import reelThumbnail4 from '../assets/e1b35766fb68207a960ddd066262256783ad6353.png';
+import reelThumbnail5 from '../assets/ee88760a3582db27757024dc75c0a33025fd8e29.png';
+import reelThumbnail6 from '../assets/5bd91a7b97fbfbedd6126b51a65d47506b56482f.png';
 
 interface LandingPageProps {
   onNavigate: (page: 'about' | 'booking') => void;
