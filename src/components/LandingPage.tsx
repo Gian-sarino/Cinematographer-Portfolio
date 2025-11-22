@@ -4,7 +4,7 @@ import { VideoPlayer } from './VideoPlayer';
 import { Play } from 'lucide-react';
 
 // Import portfolio images from assets
-import portfolioImage1 from '../assets/ae15dc5f4d4c61e5795541d171e256c2304fc64c.png';
+import portfolioImage1 from '../src/assets/ae15dc5f4d4c61e5795541d171e256c2304fc64c.png';
 import portfolioImage2 from '../assets/36b5736f28a2e677a4d748d4fcfaa4714d58978a.png';
 import portfolioImage3 from '../assets/461bbba6e5f116e17cc128e227c7cbefe5962a5f.png';
 import portfolioImage4 from '../assets/1f61ee87097d8103debc0aaf838d5b5f9968855a.png';

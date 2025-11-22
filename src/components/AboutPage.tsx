@@ -2,6 +2,8 @@ import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Instagram, Linkedin, Youtube, ExternalLink } from 'lucide-react';
 import gianPortrait from '../assets/daed18a7e5276dcc2fa3ef99b2ffc28c81082934.png';
+
+interface AboutPageProps {
   onNavigate: (page: 'booking') => void;
 }
 
